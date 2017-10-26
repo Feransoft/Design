@@ -1,0 +1,64 @@
+nav {
+    padding: 0.5em;
+    border: 1px solid black;
+    margin-bottom: 0.5em;
+}
+
+header {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+aside {
+    border: 1px solid black;
+    padding: 0,5em;
+}
+
+main {
+    border: 1px solid black;
+}
+
+section {
+    border: 1px solid black;
+}
+
+.row main {
+    margin-left: 95px; 
+}
+
+.col-8 form {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+section#principal.col-10{
+    margin-left: -16px;
+    display: block;
+}
+
+section#secundario.col-2 {
+    margin-left: 32px;
+}
+
+main.col-9 {
+    display: flex;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    border: 1px solid black;
+}
+
+footer .col-4 {
+    padding-left: 180px;
+}

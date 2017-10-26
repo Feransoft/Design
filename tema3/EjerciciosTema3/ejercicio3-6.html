@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        a:link {
+            color: blue;
+        }
+/* 
+        a:visited {
+            color: rgb(102, 0, 128)
+        } */
+
+        /*colo cuando acaba de ser pulsado*/
+        a:active {
+            color: rgb(231, 235, 29)
+        }
+
+       /*  a:hover {
+            color: rgb(235, 122, 16)
+        } */
+
+        input:focus {
+            color: rgb(218, 51, 29)
+        }
+
+        p:first-letter {
+            color: rgb(235, 25, 10)
+        }
+
+        p:lang(es) {
+            color: rgb(224, 19, 197)!important;
+        }
+
+        p:first-line {
+            color: green
+        }
+
+        p:before {
+            content: "contenido antes ";
+        }
+
+        p:after {
+            content: " contenido despues ";
+        }
+
+       
+    </style>
+</head>
+<a href="https://www.google.es"  target ="_blank">link no visitado</a>
+<br>
+<a href="https://www.google.es"  target ="_blank" >link no visitado</a>
+<br>
+<input type="text">
+<p>esto es una frase <br>segunda frase</p>
+
+<p id="lang" class="lang" lang="es"> Tengo lang <br>tengo lang segunda frase</p>
+
+<body>
+
+
+
+
+</body>
+
+</html>

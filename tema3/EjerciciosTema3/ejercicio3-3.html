@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Todos los elementos de la pagina */
+        * {
+            font: 1em/1.3 Arial, sans-serif;
+        }
+        /* Todos los parrafos de la pagina */
+        p{color: #333;}
+
+        /* Todos los párrafos contenidos en #principal */
+        #principal p{color: rgb(155, 121, 121);}
+
+        /* Todos los enlaces la pagina */
+        a{color: #336699;}
+
+        /* Los elementos "em" contenidos en #principal */
+        #principal em{background: #FFFFCC; padding: .1em;}
+
+        /* Todos los elementos "em" de clase "resaltado" en toda la pagina */
+        em.resaltado { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
+
+        /* Elementos "span" contenidos en .normal */
+        .normal span{ font-weight: bold; }
+
+    </style>
+</head>
+
+<body>
+    <div id="principal">
+        <p>The increase in the amount of solar data provided by
+            <a href="#"> new satellites </a>
+            makes it necessary to develop methods to automate the detection of solar features. Here we present a method for
+            <em>automatically detecting active regions</em>
+            in solar extreme ultraviolet (EUV) images using a series of steps.
+        </p>
+    </div>
+    <div class="normal">
+        <p> Initially, the bright regions in the image are segmented using seeded region growing.
+            <span>
+                <a href="#">In a second phase </a> these bright regions </span> are clustered into active regions.
+            <a href="#"> Partition-based clustering </a> (both hard and fuzzy) and hierarchical clustering are compared in this work.
+        </p>
+        <p> The aim of the clustering phase
+            <em class="resaltado"> is to associate a group to each segmented region </em> in order to reduce the total number of active regions.
+            This facilitates the documentation or subsequent monitoring of these regions.</p>
+        <p> We use two indicators to validate the partitioning: i)
+            <em class="resaltado">the number of detected clusters </em>
+            approximates the number of active regions reported by the National Oceanic and Atmospheric Administration (NOAA) and ii)
+            the area that defines each cluster overlaps with the area of
+            <a href="#">an active region of NOAA</a>. </p>
+
+
+    </div>
+
+</body>
+
+</html>

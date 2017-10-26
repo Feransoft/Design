@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .aviso.alerta {
+            background: red; /*  tiene que tener las dos clases para que se aplique */
+        }
+        p.aviso a.alerta{
+            background: rgb(0, 89, 255);  /*  link dentro de un parrafo cada uno con su clase */
+        }
+        ul#menuPrincipal li.aviso a#contacto {  /* link dentro de una lista cada uno con clases e ids */
+            background: rgb(238, 157, 6); 
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <p class="aviso">clase aviso</p>
+    <p class="aviso alerta">clase aviso y alerta</p>
+
+
+    <p class="aviso"><a class="alerta">parrafo y div con clases</a></p>
+
+
+    <ul id="menuPrincipal">
+        <li class="aviso">
+            <a id="contacto" href="">link contacto</a>
+        </li>
+    </ul>
+</body>
+
+</html>

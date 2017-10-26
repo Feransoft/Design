@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    <link href="css/style.css" rel="stylesheet"> -->
+    <style>
+        div table tbody tr td a em {
+
+            background: red;
+            /* al "em" k este dentro de lo anterior */
+        }
+
+        p,
+        table,
+        a,
+        em {
+            text-decoration: underline;
+            /* afecta a todos los elemnetos seleccionados */
+        }
+
+        p * em {
+            background: rgb(111, 196, 0);
+            /* afecta a un "em" predecido de cualquier elemento y este este dentro de un parafo */
+        }
+    </style>
+</head>
+
+<body>
+    <p>i'm a parraf outside table</p>
+    <br>
+    <a href="www.google.es">i'm a link outsida table</a>
+    <br>
+    <em>i'm a em outside table</em>
+    <br>
+    <table border="1px solid black" style="width:100%">
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <a href="www.google.es">i'm a link inside a table</a>
+    </table>
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>
+                        <a href="www.google.es">
+                            <em>a</em>'m a link inside a table</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        <table>
+            <a href="">
+                <em>i'm em inside p,table,a</em>
+            </a>
+        </table>
+    </p>
+    <p>
+        <a href="">
+            <em>i'm em into ramdom *</em>
+        </a>
+    </p>
+</body>
+
+</html>
