@@ -1,0 +1,44 @@
+#hor-minimalist-b{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 1rem;
+    background: #fff;
+    margin: auto;
+    margin-top : 2em;
+    width: 700px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#hor-minimalist-b th {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #039;
+    padding: 20px 8px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid rgb(177, 185, 255);
+}
+#hor-minimalist-b td{
+    color: #669;
+    padding: 20px 8px;
+    border-right: 1px solid #fff;
+}
+
+#hor-minimalist-b tbody tr:hover td{
+    color: #009;
+}
+
+tbody td:nth-child(odd) {
+    background: #d7d7f7;
+}
+
+tbody td:nth-child(even) {
+    background: #c8c8fa;
+}
+
+thead th:nth-child(odd) {
+    background: #c8c8fa;
+}
+
+thead th:nth-child(even) {
+    background: #a7a7ff;
+}

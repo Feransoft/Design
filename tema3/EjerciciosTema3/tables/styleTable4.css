@@ -1,33 +1,25 @@
 #hor-minimalist-b{
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size: 1rem;
-    background: #e1e1ff;
+    background: #fff;
     margin: auto;
     margin-top : 2em;
     width: 700px;
     border-collapse: collapse;
-    border-spacing: 10px;
     text-align: left;
-    border-top: 8px solid #b5b5ff;
-    border-bottom: 8px solid #b5b5ff;
-    border-right: 1px solid #b5b5ff;
-    text-align: center;
-    border-left: 1px solid #b5b5ff;
 }
 
 #hor-minimalist-b th {
+    font-size: 1rem;
     font-weight: normal;
     color: #039;
-    padding: 10px 8px;
-    border-right: 1px solid #b5b5ff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 8px;
+
 }
+
 #hor-minimalist-b td{
     color: #669;
-    padding: 6px 8px;
-    border-right: 1px solid #b5b5ff;
-    padding-top: 20px;
+    padding: 20px 8px;
     padding-bottom: 20px;
 }
 
@@ -35,3 +27,6 @@
     color: #009;
 }
 
+tbody tr:nth-child(odd) {
+    background: #d7d7f7;
+}
