@@ -24,13 +24,19 @@
 
 #hor-minimalist-b tbody tr:hover td{
     color: #009;
-    background: #f0f0ff
+    background: #f0f0ff;
+    
+}
+
+#hor-minimalist-b tbody tr:hover td:nth-child(1) {
+    border-right: 5px solid #f0f0ff;
 }
 
 tbody td:nth-child(1), thead th:nth-child(1) {
     background: #d4d4ff;
+    border-right: 10px solid #d4d4ff;
 }
 
-tbody td:nth-child(1) {
-    
+tbody tr:nth-child(4) {
+    border-bottom: none;
 }
