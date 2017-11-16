@@ -1,0 +1,76 @@
+body {
+    background: #e8e8e8;
+}
+
+#contenedor {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contenedor input {
+    height: 32px;
+    visibility: hidden;
+}
+
+#contenedor label {
+    float: left;
+    cursor: pointer;
+    font-size: 0.9em;  
+    line-height: 40px;
+    height: 45px;
+    padding: 0 2em;
+    display: block;
+    color: #006666;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 3px;
+    border: solid 1px #008080;
+    background: linear-gradient(180deg, rgba(0,181,181,1) 0%, rgba(0,128,128,1) 100%);
+}
+
+#contenedor input:hover + label {
+    background: white;
+    border: solid 1px;
+    border-color: white;
+    color: #666; 
+}
+
+#contenedor input:checked + label {
+    background: white;
+    color: #666;
+    border-color: white;
+}
+
+.content {
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    z-index: 5;
+    border-radius: 0 5px 5px 5px;
+}
+
+.content div {
+    position: absolute;
+    opacity: 0;
+    transition: all linear 0.1s;
+}
+
+#contenedor input.tab-selector-1:checked ~ .content .content-1,
+#contenedor input.tab-selector-2:checked ~ .content .content-2,
+#contenedor input.tab-selector-3:checked ~ .content .content-3,
+#contenedor input.tab-selector-4:checked ~ .content .content-4 {
+    z-index: 100;
+    opacity: 1;
+}
+
+h3, h4{
+    color: #008080;
+}
+
+p{
+    border-left: solid 8px #c7dbdb;
+    padding-left: 20px;
+}

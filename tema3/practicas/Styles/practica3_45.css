@@ -1,0 +1,15 @@
+img {
+    border: solid 5px rgb(52, 174, 255);
+    padding: 20px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(left, rgb(9, 179, 9), rgb(238, 38, 38)); 
+    background: -o-linear-gradient(bottom, rgb(9, 179, 9), rgb(238, 38, 38)); 
+    background: -moz-linear-gradient(bottom, rgb(9, 179, 9), rgb(238, 38, 38)); 
+    background: linear-gradient(to bottom, rgb(9, 179, 9), rgb(238, 38, 38));
+    box-shadow: 10px 10px 7px 0px rgba(0,0,0,0.50);
+}
+
+figure {
+    margin-top: 30px;
+    text-align: center;
+}
