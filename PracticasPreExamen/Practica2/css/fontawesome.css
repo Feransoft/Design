@@ -1,0 +1,12 @@
+span{
+  cursor: pointer;
+}
+
+span i:nth-child(2){
+  background: grey;
+  border-radius: 50%;
+  color: white;
+}
+span i:nth-child(2):hover{
+  background: orange;
+}

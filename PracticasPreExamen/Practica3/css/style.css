@@ -1,0 +1,161 @@
+body {
+  background: url("../assets/img/white_leather.png");
+}
+
+header {
+  background: rgb(243, 243, 243);
+  border-bottom: 1px solid rgb(202, 201, 201);
+}
+
+.socialNw {
+  text-align: center;
+}
+
+.socialNw a {
+  text-decoration: none;
+}
+
+.socialNw a span {
+  background: grey;
+  border-radius: 50%;
+}
+
+.socialNw a span:hover {
+  background: orange;
+}
+
+.socialNw a span i {
+  color: white;
+}
+
+.nav {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+
+/* .nav .active span{
+  background: orange;
+  color: white;
+} */
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a span {
+  padding: 10px 3px;
+}
+
+.nav a span:hover {
+  background: orange;
+  color: white;
+  border-bottom: 1px solid orange;
+}
+
+.nav a span i span {
+  background: orange;
+  color: white;
+  padding: 2px 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-weight: bold;
+}
+
+
+/* main{
+
+} */
+
+.logo img {
+  width: 180px;
+  margin-top: 10px;
+}
+
+.dotmark {
+  background: white;
+  font-size: 1em;
+  margin: 10px 40px;
+  padding: 1px 0px;
+}
+
+.dotmark span {
+  display: block;
+  border: 1px dashed orange;
+  color: orange;
+  margin: 10px;
+  padding: 10px;
+}
+
+.dotmark i {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 2px;
+  color: orange;
+}
+
+main section:nth-child(1) article:nth-child(3) {
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+main section:nth-child(1) article:nth-child(3) p {
+  text-align: right;
+}
+
+main section:nth-child(1) article:nth-child(3) span {
+  float: right;
+  cursor: pointer;
+}
+
+main section:nth-child(1) article:nth-child(3) span:hover {
+  background: orange;
+  color: white;
+}
+
+.btn {
+  background: rgb(211, 211, 211);
+  border-radius: 4px;
+  margin-left: 3px;
+  padding: 3px 5px;
+}
+
+.navBar {
+  background: rgb(243, 243, 243);
+  box-shadow: 2px 2px 20px;
+  border-radius: 10px;
+}
+
+.navBar ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+
+.navBar ul li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.navBar ul li:hover {
+  background: rgb(201, 201, 201);
+  border-radius: 10px;
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navBar form {
+  display: inline-block;
+  position: relative;
+  margin-left: 630px;
+  margin-top: -30px;
+}
