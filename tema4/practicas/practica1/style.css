@@ -1,0 +1,81 @@
+body {
+  background-image: url("../photos/wood.jpg");
+  font-family: 'Acme', sans-serif;
+}
+
+img {
+  padding: 10px;
+}
+
+.card-text {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+body>div {
+  margin-top: 50px;
+}
+
+body div div .panel:nth-child(1),
+body div div .panel:nth-child(7),
+body div div .panel:nth-child(11) {
+  transform: skew(3deg, -3deg);
+}
+
+body div div .panel:nth-child(2),
+body div div .panel:nth-child(4),
+body div div .panel:nth-child(5),
+body div div .panel:nth-child(8),
+body div div .panel:nth-child(10) {
+  transform: skew(-3deg, 3deg);
+}
+
+img {
+  transition: all .2s ease-in-out;
+}
+
+img:hover {
+  transform: skew(-5deg, 5deg);
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+body div div div{
+  transition: all .2s ease-in-out;
+}
+
+body div div div:nth-child(1):hover,
+body div div div:nth-child(2):hover,
+body div div div:nth-child(3):hover,
+body div div div:nth-child(4):hover,
+body div div div:nth-child(5):hover,
+body div div div:nth-child(6):hover,
+body div div div:nth-child(7):hover,
+body div div div:nth-child(8):hover,
+body div div div:nth-child(9):hover,
+body div div div:nth-child(10):hover,
+body div div div:nth-child(11):hover,
+body div div div:nth-child(12):hover{
+  transform: skew(0deg, 0deg)
+}
+
+.pin {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.pinA {
+  top: 0px;
+  left: 180px;
+}
+
+.pinB {
+  top: 0px;
+  left: 20px;
+}
+
+.pinC {
+  top: 0px;
+  left: 90px;
+}

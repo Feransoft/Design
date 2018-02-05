@@ -1,0 +1,124 @@
+.flex-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.flex-main{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.flex-footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px; 
+}
+
+.flex-item-4, .flex-item-5{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-item-10{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-item-11{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-item-18{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-item-1, .flex-item-2, .flex-item-3, .flex-item-7, .flex-item-8, .flex-item-9, .flex-item-13, .flex-item-14, .flex-item-15,
+.flex-item-16, .flex-item-17, .flex-item-12, .flex-item-19, .flex-item-20, .flex-item-21, .flex-item-22{
+  text-align: center;
+  line-height: 50px;;
+  font-size: 1.3em;
+}
+
+.flex-item-1, .flex-item-2, .flex-item-3, .flex-item-7, .flex-item-8, .flex-item-9{
+  margin: auto 5px;
+}
+
+.flex-item-1, .flex-item-8, .flex-item-10, .flex-item-11, .flex-item-12{
+  flex-grow: 1;
+}
+
+.flex-item-2{
+  flex-grow: 2;
+}
+
+.flex-item-3, .flex-item-7{
+  flex-grow: 3;
+}
+
+.flex-item-9{
+  flex-grow: 4;
+}
+
+.flex-item-4, .flex-item-5, .flex-item-6{
+  margin: 10px;
+}
+
+.flex-item-10, .flex-item-11, .flex-item-12{
+  margin: 5px;
+}
+
+.flex-item-16, .flex-item-17{
+  margin: 30px;
+  width: 100px;
+}
+
+.flex-item-16{
+  line-height: 210px;
+}
+
+.flex-item-17{
+  line-height: 110px;
+}
+
+.flex-item-13, .flex-item-14, .flex-item-15{
+  width: 80px;
+  margin: 10px;
+  line-height: 70px;
+}
+
+.flex-item-12{
+  line-height: 290px;
+}
+
+.flex-item-19, .flex-item-20, .flex-item-21, .flex-item-22{
+  margin: 10px;
+  width: 110px;
+}
+
+.flex-item-21, .flex-item-22{
+  margin-right: 80px; 
+}
+
